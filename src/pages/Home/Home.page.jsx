@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import { Link, useHistory } from 'react-router-dom';
+import VideoList from '../../components/videoList/VideoList.component';
+
 
 import { useAuth } from '../../providers/Auth';
 import './Home.styles.css';
@@ -17,10 +19,13 @@ function HomePage() {
 
   return (
     <section className="homepage" ref={sectionRef}>
-      <h1>Hello stranger!</h1>
+
+
       {authenticated ? (
         <>
-          <h2>Good to have you back</h2>
+          
+          
+          <VideoList/>
           <span>
             <Link to="/" onClick={deAuthenticate}>
               ← logout
@@ -30,7 +35,11 @@ function HomePage() {
           </span>
         </>
       ) : (
-        <Link to="/login">let me in →</Link>
+        <div>
+          <h1>Hello stranger!</h1>
+          <Link to="/login">let me in →</Link>
+        </div>
+
       )}
     </section>
   );
