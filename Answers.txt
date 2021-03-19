@@ -1,0 +1,8 @@
+1 .-Using create-react-app, what do we need to set up for testing?
+      The reac test library is created by default, you just need to create the files and coding your test, after that run "npm run test"
+      
+2 .- What components are worth to test in your development?
+      Every component that handles data or changes with events
+      
+3 .- Can you apply TDD once you already created components?
+      Yes
