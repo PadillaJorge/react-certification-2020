@@ -51,7 +51,7 @@ function App() {
               <NotFound />
             </Route>
           </Switch>
-          <Fortune />
+         <Fortune/>
         </Layout>
       </AuthProvider>
     </BrowserRouter>
