@@ -1,0 +1,31 @@
+
+
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #457B9D;
+  padding: 20px;
+}
+
+.items{
+margin-left:10px ;
+
+
+}
+.search{
+  background-color: #F1FAEE;
+  width: 230px;
+  border-radius: 5px;
+}
+
+.search input{
+height: 50px;
+background-color: #F1FAEE;
+width: 200px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+outline: none;
+border:none;
+}
