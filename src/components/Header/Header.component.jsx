@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.style.css'
 import { faSearch, faBars, faUser, faMoon } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@ npm install --save @fortawesome/react-fontawesome'
 
 const Header = () => {
     return (
